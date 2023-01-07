@@ -3,9 +3,12 @@
 .container {
     column-width: 250px;
     column-gap: 20px;
-    display: flex;
+    /*display: flex; commented out and added display grid*/
     flex-direction: column;
     border: 5px solid lime;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
     
 }
 
@@ -60,11 +63,18 @@ section {
     background-color: lightpink;
     border: 5px solid snow;
     font-family: Arial, Helvetica, sans-serif;
+    
+        
+    }
 
-}
 
 #GitHub {
     background-color: lightskyblue;
     font-family: cursive ;
-    border: 5px solid black ;
-}
+    border: 5px solid peachpuff;
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    box-shadow: inset 0px 0px 8px
+    peachpuff, 0 0 15px
+    midnightblue
+    }
