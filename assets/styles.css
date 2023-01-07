@@ -5,15 +5,20 @@
     column-gap: 20px;
     display: flex;
     flex-direction: column;
+    border: 5px solid lime;
+    
 }
+
 
 header {
     background-color: lightgoldenrodyellow;
+    
 }
 
 nav {
     background-color: lightblue;
-    display: inline;
+    display: inline-flex;
+
 }
 
 nav ul {
@@ -40,16 +45,26 @@ section {
 
 #about {
     background-color: blueviolet;
+    border: 5px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 #contact {
     background-color: lightyellow;
+    border: 5px solid red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #education {
     background-color: lightpink;
+    border: 5px solid snow;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 #GitHub {
     background-color: lightskyblue;
+    font-family: cursive ;
+    border: 5px solid black ;
 }
