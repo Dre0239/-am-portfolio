@@ -8,7 +8,7 @@
 }
 
 header {
-    background-color: lightgray;
+    background-color: lightgoldenrodyellow;
 }
 
 nav {
@@ -38,8 +38,8 @@ section {
     padding: 20px;
 }
 
-#aboutme {
-    background-color: lightgreen;
+#about {
+    background-color: blueviolet;
 }
 
 #contact {
