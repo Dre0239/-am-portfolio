@@ -8,8 +8,11 @@
     border: 5px solid lime;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     
+}
+body {
+    background-color: lightgrey;
 }
 
 
@@ -20,7 +23,10 @@ header {
 
 nav {
     background-color: lightblue;
-    display: inline-flex;
+    width: 100%;
+    height: 30px;
+    
+    
 
 }
 
@@ -28,12 +34,31 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 25 0;
-    display: inline;
+
+
+    
 }
 
 nav li {
     flex: 1;
-    text-align: inline;
+    display: inline-block;
+    line-height: 30px;
+
+    
+}
+
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 0 15px;
+    
+}
+
+ul li a:hover {
+color: lavenderblush
 }
 
 main {
@@ -49,20 +74,23 @@ section {
 #about {
     background-color: blueviolet;
     border: 5px solid black;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
     
 }
 
 #contact {
     background-color: lightyellow;
     border: 5px solid red;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
 }
 
 #education {
     background-color: lightpink;
     border: 5px solid snow;
     font-family: Arial, Helvetica, sans-serif;
+    width: 30%;
     
         
     }
@@ -70,11 +98,13 @@ section {
 
 #GitHub {
     background-color: lightskyblue;
-    font-family: cursive ;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20%;
     border: 5px solid peachpuff;
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
     box-shadow: inset 0px 0px 8px
     peachpuff, 0 0 15px
     midnightblue
+    
     }
