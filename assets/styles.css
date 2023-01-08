@@ -10,6 +10,7 @@
     grid-template-columns: repeat(1, 1fr);
     
 }
+
 body {
     background-color: lightgrey;
 }
@@ -79,8 +80,8 @@ section {
     border: 5px solid black;
     font-family: Arial, Helvetica, sans-serif;
     width: 50%;
-    
 }
+
 
 #contact {
     background-color: lightyellow;
