@@ -1,114 +1,94 @@
 /* CSS - general style sheet for CSS */
 
 .container {
-    column-width: 250px;
-    column-gap: 20px;
-    /*display: flex; commented out and added display grid*/
-    flex-direction: column;
-    display: grid;
-    width: 100%;
-    grid-template-columns: repeat(1, 1fr);
-    
+  column-width: 250px;
+  column-gap: 20px;
+  /*display: flex; commented out and added display grid*/
+  flex-direction: column;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 body {
-    background-color: lightgrey;
+  background-color: lightgrey;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
-
 header {
-    background-color: lightgoldenrodyellow;
-    
+  background-color: lightgrey;
 }
 
 nav {
-    background-color: lightblue;
-    width: 100%;
-    height: 30px;
-    
-    
-
+  background-color: lightgray;
+  width: 100%;
+  height: 30px;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 25 0;
-
-
-    
+  list-style: none;
+  margin: 0;
+  padding: 25 0;
 }
 
 nav li {
-    flex: 1;
-    display: inline-block;
-    line-height: 30px;
-
-    
+  flex: 1;
+  display: inline-block;
+  line-height: 30px;
 }
 
-
 ul li a {
-    text-decoration: none;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    padding: 0 15px;
-    
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  padding: 0 15px;
 }
 
 ul li a:hover {
-color: lavenderblush
+  color: lavenderblush;
 }
 
 main {
-    display: inline;
-    flex: 1;
+  display: inline;
+  flex: 1;
 }
 
 section {
-    flex: 1;
-    padding: 20px;
+  flex: 1;
+  padding: 20px;
 }
 
 #about {
-    background-color: blueviolet;
-    border: 5px solid black;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
+  background-color: lightgray;
+  border: 5px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
 }
 
-
 #contact {
-    background-color: lightyellow;
-    border: 5px solid red;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 50%;
+  background-color: lightgray;
+  border: 5px solid red;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 50%;
 }
 
 #education {
-    background-color: lightpink;
-    border: 5px solid snow;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 30%;
-    
-        
-    }
-
+  background-color: lightgray;
+  border: 5px solid snow;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 30%;
+}
 
 #GitHub {
-    background-color: lightskyblue;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 20%;
-    border: 5px solid peachpuff;
-    border-radius: 8px;
-    transition: all 0.5s ease-in-out;
-    box-shadow: inset 0px 0px 8px
-    peachpuff, 0 0 15px
-    midnightblue
-    
-    }
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20%;
+  border: 5px solid peachpuff;
+  border-radius: 8px;
+  transition: all 0.5s ease-in-out;
+  box-shadow: inset 0px 0px 8px peachpuff, 0 0 15px midnightblue;
+}
