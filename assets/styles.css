@@ -27,13 +27,16 @@ body {
 }
 
 header {
-  background-color: lightgrey;
+  background-color: none;
+  border: 5px solid red;
+  color: aliceblue;
 }
 
 nav {
-  background-color: lightgray;
+  background-color: none;
   width: 100%;
   height: 30px;
+  border: 5px solid red;
 }
 
 nav ul {
@@ -52,7 +55,7 @@ ul li a {
   text-decoration: none;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  color: black;
+  color: aliceblue;
   padding: 0 15px;
 }
 
@@ -71,32 +74,36 @@ section {
 }
 
 #about {
-  background-color: lightgray;
-  border: 5px solid black;
+  background-color: none;
+  border: 5px solid red;
   font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
   width: 100%;
 }
 
 #contact {
-  background-color: lightgray;
+  background-color: none;
   border: 5px solid red;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  color: aliceblue;
 }
 
 #education {
-  background-color: lightgray;
-  border: 5px solid snow;
+  background-color: none;
+  border: 5px solid red;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
+  color: aliceblue;
 }
 
 #GitHub {
-  background-color: lightgray;
+  background-color: none;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
-  border: 5px solid peachpuff;
+  border: 5px solid red;
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
   box-shadow: inset 0px 0px 8px peachpuff, 0 0 15px midnightblue;
+  color: aliceblue;
 }
