@@ -9,9 +9,17 @@
   width: 100%;
   grid-template-columns: repeat(1, 1fr);
 }
+img {
+  border-radius: 80px;
+}
 
 body {
-  background: url ("./assets/Matrix - 2321.mp4");
+  background-image: url("Brain 6.png");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-size: cover;
 }
 
 .center {
@@ -66,27 +74,27 @@ section {
   background-color: lightgray;
   border: 5px solid black;
   font-family: Arial, Helvetica, sans-serif;
-  width: 50%;
+  width: 100%;
 }
 
 #contact {
   background-color: lightgray;
   border: 5px solid red;
   font-family: Arial, Helvetica, sans-serif;
-  width: 50%;
+  width: 100%;
 }
 
 #education {
   background-color: lightgray;
   border: 5px solid snow;
   font-family: Arial, Helvetica, sans-serif;
-  width: 30%;
+  width: 100%;
 }
 
 #GitHub {
   background-color: lightgray;
   font-family: Arial, Helvetica, sans-serif;
-  width: 20%;
+  width: 100%;
   border: 5px solid peachpuff;
   border-radius: 8px;
   transition: all 0.5s ease-in-out;
